@@ -163,10 +163,10 @@ def get_depot_tools(source_dir, fetch=False):
 
 
 PATCH_INFO = {
-    'macos_h264_encoder.patch': (2, []),
-    'macos_screen_capture.patch': (2, []),
-    'macos_use_xcode_clang.patch': (1, ['build']),
-    'windows_fix_optional.patch': (1, ['third_party']),
+    # 'macos_h264_encoder.patch': (2, []),
+    # 'macos_screen_capture.patch': (2, []),
+    # 'macos_use_xcode_clang.patch': (1, ['build']),
+    # 'windows_fix_optional.patch': (1, ['third_party']),
 }
 
 PATCHES = {
@@ -175,7 +175,7 @@ PATCHES = {
         # 'add_license_dav1d.patch',
         # 'windows_add_deps.patch',
         # 'windows_silence_warnings.patch',
-        # 'windows_fix_towupper.patch',
+        'windows_fix_towupper.patch',
         # 'windows_fix_optional.patch',
         'ssl_verify_callback_with_native_handle.patch',
     ],
