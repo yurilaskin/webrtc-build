@@ -176,7 +176,7 @@ PATCHES = {
         'windows_add_deps.patch',
         # 'windows_silence_warnings.patch',
         'windows_fix_towupper.patch',
-        # 'windows_fix_optional.patch',
+        'windows_fix_optional.patch',
         # 'ssl_verify_callback_with_native_handle.patch',
     ],
     'windows_arm64': [
